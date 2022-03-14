@@ -73,7 +73,7 @@ $urlsThatJustChangedCategory
     $urlsToRemove | Out-File $datapath -Append
        Write-Output "---------------" | Out-File $datapath -Append
     Write-Output "" | Out-File $datapath -Append
-    Write-Output "URLs that just changed category" | Out-File $datapath -Append
+    Write-Output "URLs that just changed category to be evaluated for optimization" | Out-File $datapath -Append
     Write-Output "" | Out-File $datapath -Append
     $urlsThatJustChangedCategory | Out-File $datapath -Append
 
